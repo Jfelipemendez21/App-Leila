@@ -209,10 +209,10 @@ export default function Home(props){
           <View style={styles.containerGastos}>
             <TouchableOpacity style={styles.menuButtonGastos} onPress={()=>{
               navigation.navigate("GastosImportantes", {userEmail: userEmail, montoAcumulado: total.montoTotal})
-            }}><Text style={styles.menu}>Importantes 📌</Text></TouchableOpacity>
+            }}><Text style={styles.menu}>Importantes</Text></TouchableOpacity>
             <TouchableOpacity style={styles.menuButtonGastos} onPress={()=>{
               navigation.navigate("GastosHormiga", {userEmail: userEmail, montoAcumulado: total.montoTotal})
-            }}><Text style={styles.menu}>Hormiga 🐜</Text></TouchableOpacity>
+            }}><Text style={styles.menu}>Hormiga</Text></TouchableOpacity>
           </View>
           }
           </View>
